@@ -16,9 +16,6 @@
                         "main   main   main   sidebar"
                         "footer footer footer footer";
 }
-.logo {
-    display: flex;
-}
 .logo img {
     height: 50px;
     margin: 10px;
