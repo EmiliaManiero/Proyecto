@@ -27,14 +27,6 @@
 .navbar {
     background-color: black;
     display: flex;
-    flex-direction: column;
-    align-items: end;
-}
-.navbar ul {
-    width: 100%;
-    list-style: none;
-    display: none;
-    flex-direction: column;
     align-items: center;
 }
 .navbar ul li {
