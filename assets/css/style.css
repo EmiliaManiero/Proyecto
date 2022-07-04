@@ -22,12 +22,10 @@
 .logo img {
     height: 50px;
     margin: 10px;
-
 }
 .navbar {
     background-color: black;
     display: flex;
-    flex-direction: column;
     align-items: end;
 }
 .navbar ul {
