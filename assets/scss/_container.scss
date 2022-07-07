@@ -1,0 +1,11 @@
+.container{
+    display: grid;
+    font-family: sans-serif;
+    gap: 10px;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 80px 200px auto 80px;
+    grid-template-areas:"navbar navbar navbar navbar"
+                        "header header header header"
+                        "main   main   main   sidebar"
+                        "footer footer footer footer";
+}

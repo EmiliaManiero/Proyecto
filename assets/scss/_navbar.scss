@@ -1,0 +1,22 @@
+.navbar {
+    background-color: $colorPrimario;
+    display: flex;
+    align-items: end;
+}.logoimg {
+    height: 50px;
+    margin: 10px;
+}li {
+    padding: 10px;
+    font-size: 20px;
+}a {
+    color: $colorSecundario;
+    text-decoration: none;
+}input {
+    display: none;
+}input:checked + ul {
+    display: flex;
+}label {
+    color: $colorSecundario;
+    font-size: 24px;
+    padding: 10px;
+}

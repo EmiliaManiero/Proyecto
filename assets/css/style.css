@@ -1,144 +1,138 @@
-*{
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
-}
-.container{
-    display: grid;
-    font-family: sans-serif;
-    gap: 10px;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: 80px 200px auto 80px;
-    grid-template-areas:"navbar navbar navbar navbar"
-                        "header header header header"
-                        "main   main   main   sidebar"
-                        "footer footer footer footer";
-}
-.logo {
-    display: flex;
-}
-.logo img {
-    height: 50px;
-    margin: 10px;
-}
 .navbar {
-    background-color: black;
-    display: flex;
-    align-items: end;
+  background-color: black;
+  display: flex;
+  align-items: end;
 }
-.navbar ul {
-    width: 100%;
-    list-style: none;
-    display: none;
-    flex-direction: column;
-    align-items: center;
+
+.logoimg {
+  height: 50px;
+  margin: 10px;
 }
-.navbar ul li {
-    padding: 10px;
-    font-size: 20px;
+
+li {
+  padding: 10px;
+  font-size: 20px;
 }
-.navbar ul li a {
-    color: white;
-    text-decoration: none;
+
+a {
+  color: white;
+  text-decoration: none;
 }
-.navbar li a:hover {
-    background: red;
+
+input {
+  display: none;
 }
-.navbar input {
-    display: none;
+
+input:checked + ul {
+  display: flex;
 }
-.navbar input:checked + ul {
-    display: flex;
+
+label {
+  color: white;
+  font-size: 24px;
+  padding: 10px;
 }
-.navbar label {
-    color: white;
-    font-size: 24px;
-    padding: 10px;
+
+.container {
+  display: grid;
+  font-family: sans-serif;
+  gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 80px 200px auto 80px;
+  grid-template-areas: "navbar navbar navbar navbar" "header header header header" "main   main   main   sidebar" "footer footer footer footer";
 }
-@media(min-width:768px){
-    .navbar ul {
-        display: flex;
-        flex-direction: row;
-        justify-content: end;
-    }
-    .navbar label {
-        display: none;
-    }
-}
+
 .footer {
-    width: 100%;
-    background-color: white;
-    grid-area: footer;
+  width: 100%;
+  background-color: white;
+  grid-area: footer;
 }
 
 .grupo-1 {
-    width: 100%;
-    background-color: black;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 50px;
-    padding: 45px 0px;
-
+  width: 100%;
+  background-color: black;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  padding: 45px 0px;
 }
 
 .box figure {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.box figure img {
-    width: 250px;
+figure img {
+  width: 250px;
 }
 
-.box h2 {
-    color: white;
-    margin: 25px;
-    font-size: 20px;
+h2 {
+  color: white;
+  margin: 25px;
+  font-size: 20px;
 }
 
-.box p {
-    color: white;
-    margin-bottom: 10px;
-
+p {
+  color: white;
+  margin-bottom: 10px;
 }
+
 .red-social a {
-    display: inline-block;
-    text-decoration: none;
-    width: 45px;
-    height: 45px;
-    line-height: 45px;
-    color: white;
-    margin-right: 10px;
-    background-color: black;
-    text-align: center;
-    transition: all 300ms ease;
-    font-size: 50px;
+  display: inline-block;
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  color: white;
+  margin-right: 10px;
+  background-color: black;
+  text-align: center;
+  transition: all 300ms ease;
+  font-size: 50px;
 }
 
-.red-social a:hover {
-    color: red;
+a:hover {
+  color: red;
 }
 
 .grupo-2 {
-    background-color: black;
-    padding: 15px 10px;
-    text-align: center;
-    color: white;
+  background-color: black;
+  padding: 15px 10px;
+  text-align: center;
+  color: white;
 }
-.grupo-2 small {
-    font-size: 15px;
+
+small {
+  font-size: 15px;
 }
-@media screen and (max-width:800px) {
-    .footer .grupo-1 {
-        width: 90%;
-        grid-template-columns: repeat(1, 1fr);
-        grid-gap: 30px;
-        padding: 35px 0px;    
-    }
+
+@media (min-width: 768px) {
+  .navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+  }
+
+  .navbar label {
+    display: none;
+  }
 }
+@media screen and (max-width: 800px) {
+  .footer .grupo-1 {
+    width: 90%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+    padding: 35px 0px;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}/*# sourceMappingURL=style.css.map */
