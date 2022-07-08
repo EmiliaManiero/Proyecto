@@ -1,23 +1,5 @@
-.navbar {
-    background-color: black;
-    display: flex;
-    align-items: center;
-}.logoimg {
-    height: 50px;
-    margin: 10px;
-
-}li {
-    padding: 10px;
-    font-size: 20px;
-}a {
+.navbar-toggler{
+    background-color: white;
+    }.nav-link{
     color: white;
-    text-decoration: none;
-}input {
-    display: none;
-}input:checked + ul {
-    display: flex;
-}label {
-    color: white;
-    font-size: 24px;
-    padding: 10px;
-}
+    }
