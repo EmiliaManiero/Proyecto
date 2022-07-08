@@ -3,3 +3,17 @@
 @import "footer";
 @import "media";
 @import "variables";
+@import "grid";
+@import "mixing";
+@import "btn";
+    
+grupo-2{
+    background-color:map-get($grupo-2 , $backgroundcolor);
+    padding:map-get($grupo-2 , $padding );
+    text-align:map-get($grupo-2 , $text-aling );
+    color:map-get($grupo-2 , $color );
+    font-size:map-get($grupo-2 , $font-size );
+}
+
+
+

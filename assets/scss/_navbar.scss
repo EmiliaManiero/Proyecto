@@ -1,22 +1,23 @@
 .navbar {
-    background-color: $colorPrimario;
+    background-color: black;
     display: flex;
-    align-items: end;
+    align-items: center;
 }.logoimg {
     height: 50px;
     margin: 10px;
+
 }li {
     padding: 10px;
     font-size: 20px;
 }a {
-    color: $colorSecundario;
+    color: white;
     text-decoration: none;
 }input {
     display: none;
 }input:checked + ul {
     display: flex;
 }label {
-    color: $colorSecundario;
+    color: white;
     font-size: 24px;
     padding: 10px;
 }

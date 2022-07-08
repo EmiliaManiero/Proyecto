@@ -1,16 +1,15 @@
 .footer {
     width: 100%;
-    background-color: $colorSecundario;
+    background-color: white;
     grid-area: footer;
 }.grupo-1 {
     width: 100%;
-    background-color: $colorPrimario;
+    background-color: black;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 50px;
     padding: 45px 0px;
-
 }.box figure {
     width: 100%;
     height: 100%;
@@ -20,32 +19,32 @@
 }figure img {
     width: 250px;
 }h2 {
-    color: $colorSecundario;
+    color: white;
     margin: 25px;
     font-size: 20px;
 }p {
-    color: $colorSecundario;
+    color: white;
     margin-bottom: 10px;
-
 }.red-social a {
     display: inline-block;
     text-decoration: none;
     width: 45px;
     height: 45px;
     line-height: 45px;
-    color: $colorSecundario;
+    color: white;
     margin-right: 10px;
-    background-color: $colorPrimario;
+    background-color: black;
     text-align: center;
     transition: all 300ms ease;
     font-size: 50px;
 }a:hover {
-    color: $colorTerciario;
+    color: red;
 }.grupo-2 {
-    background-color: $colorPrimario;
+    background-color: black;
     padding: 15px 10px;
     text-align: center;
-    color: $colorSecundario;
+    color: white;
+    font-size: 15px;
 }small {
     font-size: 15px;
 }

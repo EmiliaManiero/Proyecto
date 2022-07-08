@@ -1,11 +1,11 @@
-@media(min-width:768px){
+@media (min-width: 768px) {
     .navbar ul {
-        display: flex;
-        flex-direction: row;
-        justify-content: end;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
     }
     .navbar label {
-        display: none;
+    display: none;
     }
 }
 @media screen and (max-width:800px) {

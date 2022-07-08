@@ -8,3 +8,24 @@
 $colorPrimario:black;
 $colorSecundario:white;
 $colorTerciario:red;
+
+$justify:(
+    start:start,
+    center:center,
+    end:end,
+    around:space-around,
+    evenly:space-evenly,
+    between:space-between
+);
+$colores:(
+    primario:black
+    secundario:white
+    terciario:red
+);
+$grupo-2:(
+    background-color: black,
+    padding: 15px 10px,
+    text-align: center,
+    color: white,
+    font-size: 15px
+);
